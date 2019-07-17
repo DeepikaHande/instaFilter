@@ -1,5 +1,7 @@
 from PIL import Image
+#original image
 base_img = Image.open("newpic.jpg")
+#filter to be added
 img_filter = Image.open("filter.jpg")
 size=(760,760)
 base_img=base_img.resize(size)
